@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Franklin046.github.io/price_card/static/css/main.19a9a0ee.css",
-    "main.js": "/Franklin046.github.io/price_card/static/js/main.90ebdfd6.js",
-    "static/js/453.acc6f5cd.chunk.js": "/Franklin046.github.io/price_card/static/js/453.acc6f5cd.chunk.js",
-    "index.html": "/Franklin046.github.io/price_card/index.html",
-    "main.19a9a0ee.css.map": "/Franklin046.github.io/price_card/static/css/main.19a9a0ee.css.map",
-    "main.90ebdfd6.js.map": "/Franklin046.github.io/price_card/static/js/main.90ebdfd6.js.map",
-    "453.acc6f5cd.chunk.js.map": "/Franklin046.github.io/price_card/static/js/453.acc6f5cd.chunk.js.map"
+    "main.css": "/price_card/static/css/main.19a9a0ee.css",
+    "main.js": "/price_card/static/js/main.dd724d13.js",
+    "static/js/453.acc6f5cd.chunk.js": "/price_card/static/js/453.acc6f5cd.chunk.js",
+    "index.html": "/price_card/index.html",
+    "main.19a9a0ee.css.map": "/price_card/static/css/main.19a9a0ee.css.map",
+    "main.dd724d13.js.map": "/price_card/static/js/main.dd724d13.js.map",
+    "453.acc6f5cd.chunk.js.map": "/price_card/static/js/453.acc6f5cd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.19a9a0ee.css",
-    "static/js/main.90ebdfd6.js"
+    "static/js/main.dd724d13.js"
   ]
 }
