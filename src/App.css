@@ -1,0 +1,117 @@
+/* Ensuring the entire viewport has the background color */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+/* Setting the background color */
+body {
+  background: #e0f7fa; /* Example background color */
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+/* Styling the app container */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Styling the pricing container */
+.pricing-container {
+  background: #007bff; /* Blue background color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the pricing table */
+.pricing-table {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Styling individual pricing cards */
+.pricing-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading stylesfor pricing cards */
+.pricing-card h2 {
+  margin-bottom: 10px;
+}
+
+.pricing-card h3 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Styling the features list */
+.pricing-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+  text-align: center;
+}
+
+/* Styling individual feature items */
+.pricing-card li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Enabled feature item styles */
+.pricing-card li.enabled {
+  color: #000;
+}
+
+/* Disabled feature item styles */
+.pricing-card li.disabled {
+  color: #999;
+  text-decoration: line-through;
+}
+
+/* Adding space to the icons */
+.pricing-card li span {
+  margin-right: 10px;
+}
+
+/* Styling the button */
+.pricing-card button {
+  background: #007bff;
+  border: none;
+  color: #fff;
+  width: 100%;
+  padding: 16px 32px;
+  border-radius: 30px;
+  cursor: pointer;
+  /* transition: background-color 0.3s ease, transform 0.3s ease; */
+}
+
+.pricing-card button:hover {
+  background: #0056b3;
+  /*  */
+}
